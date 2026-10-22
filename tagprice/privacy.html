@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TagPrice — Privacy policy</title>
+<meta name="description" content="Privacy policy and support for TagPrice: US Sales Tax, by 4slab.">
+<style>
+  :root { color-scheme: light dark; --ink: #0b0d10; --muted: #56606b; --paper: #edf0f3; --rule: #cdd3da; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #f2f5f7; --muted: #9aa4af; --paper: #07090c; --rule: #262d36; } }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 34px; line-height: 1.15; margin: 0 0 4px; }
+  h2 { font-size: 22px; margin: 36px 0 8px; }
+  p, li { margin: 0 0 12px; }
+  .muted { color: var(--muted); }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+<h1>TagPrice — Privacy policy</h1>
+<p class="muted">TagPrice: US Sales Tax, by 4slab. In force from 22 October 2026.</p>
+
+<h2>What the app keeps</h2>
+<p>TagPrice adds US sales tax to the price on a shelf tag and can show the total in a second
+currency. Everything you enter — prices, your cart, receipts saved to the trip ledger, a trip
+budget, the places you chose and your settings — is stored on your phone. There is no account, no
+sign-in and no server of ours that receives it.</p>
+
+<h2>Location</h2>
+<p>If you allow it, the app asks the phone for an <strong>approximate</strong> location and uses
+it, on the phone, to find which ZIP code you are in and therefore which tax rate applies. The
+location is never sent anywhere and is not stored beyond the ZIP code it led to. You can type a
+ZIP code or a city instead and never grant the permission.</p>
+
+<h2>Camera</h2>
+<p>The price-tag scanner reads the frame on the phone to find a price. No photo is taken, saved or
+sent. On Android the text is read by Google's ML Kit library, which runs on the phone; ML Kit sends
+Google its own usage and performance metrics (for example the device model, the app version, how
+long a read took and error codes), never the picture or the text it read. On iPhone the text is
+read by Apple's Vision framework, on the phone, and nothing is sent.</p>
+
+<h2>What goes over the network</h2>
+<ul>
+  <li><strong>The exchange rate</strong>, only if you have chosen a second currency: at most one
+  request a day to the Frankfurter API (api.frankfurter.dev), which republishes the European
+  Central Bank's reference rates, and at most one a week for the list of currencies.</li>
+  <li><strong>A check for new tax data</strong>, at most once a day.</li>
+</ul>
+<p>These requests carry no identifier, no location and nothing you entered. Like any request on
+the internet they reveal your IP address to the server that answers them.</p>
+
+<h2>Purchases</h2>
+<p>The one optional purchase, TagPrice Pro, is handled entirely by Google Play Billing on Android
+and by Apple's App Store on iPhone. TagPrice learns only whether the purchase is owned; it never
+sees your payment details. Google's and Apple's own privacy policies govern the transaction.</p>
+
+<h2>Notifications</h2>
+<p>With Pro, the app can remind you before a state's tax-free days. The reminder is scheduled on
+the phone; nothing is sent to us.</p>
+
+<h2>Backups</h2>
+<p>Android and iOS can include the app's data in the phone's own backup to your Google or Apple
+account, under the terms of that service. TagPrice does not control that backup and cannot read
+it.</p>
+
+<h2>No ads, no analytics, no tracking</h2>
+<p>The app shows no advertising and contains no analytics, advertising or crash-reporting software
+of its own. It does not track you across apps or websites.</p>
+
+<h2>Children</h2>
+<p>The app collects no personal data from anyone, including children.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new text is published at this address and the date above is
+updated.</p>
+
+<h2>Support and contact</h2>
+<p>Questions, corrections and wrong rates: <a href="mailto:4slabsapps@gmail.com">4slabsapps@gmail.com</a>.
+The developer is 4slab.</p>
+</main>
+</body>
+</html>
